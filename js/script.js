@@ -19,3 +19,9 @@ if (anni < 18) {
 // PREZZO SCONTATO
 var prezzoFinale = prezzoIntero - sconto;
 console.log(prezzoFinale);
+
+document.getElementById("km").innerHTML = richiestaKm;
+
+document.getElementById("anni").innerHTML = anni;
+
+document.getElementById("totale").innerHTML = prezzoFinale;

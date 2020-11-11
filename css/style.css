@@ -6,11 +6,16 @@
 
 body {
   background-color: #A6160A;
+  color: #FFFFFF;
 }
 
 header {
-  height: 200px;  
+  height: 200px;
   text-align: center;
   line-height: 200px;
   background-color: #FFFFFF;
+}
+
+main {
+  padding: 30px 30px;
 }
