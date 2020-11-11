@@ -1,42 +1,21 @@
-// NOTE: Il programma dovrà chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero.
-// Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio, secondo queste regole:
-// il prezzo del biglietto è definito in base ai km (0.21 € al km);
-// va applicato uno sconto del 20% per i minorenni;
-// va applicato uno sconto del 40% per gli over 65.
+// NOTE: PREZZO AL KM
 var prezzoAlKm = 0.21;
-
+// NOTE: KM INSERITI DALL'UTENTE
 var richiestaKm = prompt("Inserisci i km che vuoi percorrere");
-
-
+// ETA' INSERITA DALL'UTENTE
 var anni = prompt("Inserisci la tua età");
-
+// CALCOLO PREZZO INTERO
 var prezzoIntero = richiestaKm * prezzoAlKm;
 console.log(prezzoIntero);
-
-
+// VARIABILE SCONTO
 var sconto = 0;
-
+// SCONTO UNDER18
 if (anni < 18) {
   sconto = (prezzoIntero * 20 ) / 100;
-
+// SCONTO OVER65
 } else if (anni > 65) {
   sconto = (prezzoIntero * 40) / 100;
 }
-
+// PREZZO SCONTATO
 var prezzoFinale = prezzoIntero - sconto;
 console.log(prezzoFinale);
-
-
-
-
-
-
-console.log(minOMagg)
-
-
-
-
-
-
-
-console.log(percentage(1000, 47.12));
