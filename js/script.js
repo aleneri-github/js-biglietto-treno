@@ -21,4 +21,11 @@ var prezzoAlKm = 0.21;
 var prezzoIntero = richiestaKm * prezzoAlKm;
 console.log(prezzoIntero);
 
-var scontoMinorenni = 20;
+
+
+function percentage(num, per)
+{
+  return (num/100)*per;
+}
+
+console.log(percentage(1000, 47.12));
