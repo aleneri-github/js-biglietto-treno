@@ -46,14 +46,35 @@ header {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .info_box {
+  position: relative;
   float: left;
   height: 50%;
   width: calc(100% / 2);
-  padding: 20px;  
+  padding: 10px;
   text-align: center;
+}
+.info_box h3 {
+  font-size: 25px;
+  text-shadow: 2px 2px black;
 }
 .info_box::after {
   content: "";
   display: table;
   clear: both;
+}
+
+.circle {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  height: 110px;
+  width: 110px;
+  line-height: 110px;
+  border-radius: 50%;
+  color: #AA0F00;
+  background-color: #FFFFFF;
+}
+.circle h4 {
+  font-size: 30px;
 }
