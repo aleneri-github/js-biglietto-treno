@@ -5,17 +5,20 @@
 // va applicato uno sconto del 40% per gli over 65.
 
 var richiestaKm = prompt("Inserisci i km che vuoi percorrere");
-// richiesta km da percorrere
+
 var aNNi = prompt("Inserisci la tua età");
+
+var minOMagg = "";
+if (aNNi < 18) {
+  minOMagg = "minorenne";
+} else {
+  minOMagg = "maggiorenne";
+}
+console.log(minOMagg)
 
 var prezzoAlKm = 0.21;
 
 var prezzoIntero = richiestaKm * prezzoAlKm;
-console.log(prezzoIntero)
-// richiesta età passeggero
+console.log(prezzoIntero);
 
-// prezzo del Biglietto
-
-// sconto 20% minorenni
-
-// sconto 40% over 65
+var scontoMinorenni = 20;
