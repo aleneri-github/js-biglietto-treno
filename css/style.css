@@ -16,8 +16,6 @@ header {
   background-color: #FFFFFF;
 }
 
-
-
 #main_top {
   height: 50px;
 }
@@ -50,6 +48,7 @@ header {
   float: left;
   height: 50%;
   width: calc(100% / 2);
+  border: 1px solid black;
   padding: 10px;
   text-align: center;
 }
@@ -77,4 +76,21 @@ header {
 }
 .circle h4 {
   font-size: 30px;
+}
+
+#discount {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.red_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #AA0F00;
+  color: #FFFFFF;
 }

@@ -7,6 +7,8 @@ var anni = prompt("Inserisci la tua età");
 // CALCOLO PREZZO INTERO
 var prezzoIntero = richiestaKm * prezzoAlKm;
 console.log(prezzoIntero);
+// NOTE: ARROTONDAMENTO PREZZO
+var prezzoArrotondato = prezzoIntero.toFixed(2);
 // VARIABILE SCONTO
 var sconto = 0;
 // SCONTO UNDER18
@@ -24,4 +26,4 @@ document.getElementById("km").innerHTML = richiestaKm;
 
 document.getElementById("anni").innerHTML = anni;
 
-document.getElementById("totale").innerHTML = prezzoFinale;
+document.getElementById("totale").innerHTML = prezzoArrotondato;
