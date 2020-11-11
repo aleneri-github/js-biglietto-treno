@@ -25,7 +25,7 @@ header {
 #main_bottom {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 700px;
   background-image: url("https://www.italotreno.it/-/media/Images/images_responsive/nuovo-motore/torino/background-torino.jpg");
@@ -40,8 +40,8 @@ header {
 }
 
 .white_box {
-  height: 50%;
-  width: 65%;
+  height: 60%;
+  width: 70%;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.5);
 }
