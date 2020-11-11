@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   left: 0;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 body {
@@ -23,6 +24,7 @@ header {
 
 #main_bottom {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 700px;
@@ -30,6 +32,11 @@ header {
   background-size: cover;
   margin: 0 auto;
   padding: 30px 30px;
+}
+#main_bottom h2 {
+  font-size: 40px;
+  padding: 50px 0;
+  text-shadow: 2px 2px black;
 }
 
 .white_box {
