@@ -22,8 +22,8 @@ if (anni < 18) {
 var prezzoFinale = prezzoIntero - sconto;
 console.log(prezzoFinale);
 
-document.getElementById("km").innerHTML = richiestaKm;
+document.getElementById("km").innerHTML = richiestaKm + " Km";
 
-document.getElementById("anni").innerHTML = anni;
+document.getElementById("anni").innerHTML = anni + " Anni";
 
-document.getElementById("totale").innerHTML = prezzoArrotondato;
+document.getElementById("totale").innerHTML = prezzoArrotondato + " €";

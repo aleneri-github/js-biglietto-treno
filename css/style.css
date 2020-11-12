@@ -55,7 +55,7 @@ header {
   text-align: center;
 }
 .info_box h3 {
-  font-size: 25px;
+  font-size: 22px;
   text-shadow: 2px 2px black;
 }
 .info_box::after {
@@ -77,7 +77,7 @@ header {
   background-color: #FFFFFF;
 }
 .circle h4 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #discount {
